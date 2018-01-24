@@ -1,0 +1,48 @@
+.dataTables_wrapper {
+	position: relative;
+	
+	.actions {
+		position: absolute;
+		right: 15px;
+		top: -55px;
+	}
+	.dt-buttons {
+		display: none;
+	}
+	
+	.dataTables_filter {
+		position: absolute;
+		left: 15px;
+		top: 0;
+		max-width: 300px;
+		font-size: 0;
+		label {
+			margin: 0;
+		}
+		input {
+			@extend .form-control;
+		}
+	}
+	
+	.dataTables_length {
+		position: absolute;
+		right: 15px;
+		top: 0;
+		font-size: 0;
+		label {
+			margin: 0;
+		}
+		select {
+			@extend .form-control;
+		}
+	}
+	
+	.table {
+		margin-top: 55px;
+	}
+	
+	.dataTables_info {
+		margin-top: 20px;
+		text-align: center;
+	}
+}

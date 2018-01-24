@@ -1,0 +1,91 @@
+﻿@{
+    ViewData["Title"] = "Add/Edit Dealer";
+}
+
+
+<div class="card mb-4">
+	<div class="card-body">
+		<h2>@ViewData["Title"]</h2>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="form-group">
+					<label>Dealer Name</label>
+				    <input type="email" class="form-control" placeholder="">
+				</div>
+				<div class="form-group">
+					<label>Phone Number</label>
+				    <input type="email" class="form-control" placeholder="">
+				</div>
+				<div class="form-group">
+					<label>Cell Number</label>
+				    <input type="email" class="form-control" placeholder="">
+				</div>
+				<div class="form-group">
+					<label>Fax Number</label>
+				    <input type="email" class="form-control" placeholder="">
+				</div>
+				<div class="form-group">
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="customCheck1">
+						<label class="custom-control-label" for="customCheck1">Check to catch all</label>
+					</div>
+                </div>
+				<div class="form-group">
+					<label>Catch all email</label>
+				    <input type="email" class="form-control" placeholder="">
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="form-group">
+					<label>GPS Coordinates</label>
+				    <input type="email" class="form-control" placeholder="">
+				</div>
+				<div class="form-group">
+					<label>Postal Code</label>
+				    <input type="email" class="form-control" placeholder="">
+				</div>
+				<div class="form-group">
+					<label>Display Address</label>
+				    <textarea class="form-control" rows="3"></textarea>
+				</div>
+			</div>
+			<div class="col-md-4">
+				Map
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="card mb-4">
+	<div class="card-body">
+		<div class="row">
+			<div class="col-md-4">
+			    <select class="form-control">
+				    <option>Special Category</option>
+					<option>Demo Vehicles</option>
+					<option>New Vehicles</option>
+					<option>Used Vehicles</option>
+					<option>Services</option>
+					<option>Parts</option>
+				</select>
+			</div>
+			<div class="col-md-4">
+				<div class="custom-control custom-checkbox mt-2">
+					<input type="checkbox" class="custom-control-input" id="customCheck2">
+					<label class="custom-control-label" for="customCheck2">Special</label>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<input type="email" class="form-control" placeholder="Email address...">
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md text-center">
+		<a href="" class="btn btn-light">Cancel</a>
+		<a href="" class="btn btn-light">Delete</a>
+		<a href="" class="btn btn-primary">Save</a>
+	</div>
+</div>

@@ -1,0 +1,12 @@
+/Users/wernergriesel/Projects/mccarthy/bin/Debug/netcoreapp2.0/app.db
+/Users/wernergriesel/Projects/mccarthy/bin/Debug/netcoreapp2.0/mccarthy.deps.json
+/Users/wernergriesel/Projects/mccarthy/bin/Debug/netcoreapp2.0/mccarthy.runtimeconfig.json
+/Users/wernergriesel/Projects/mccarthy/bin/Debug/netcoreapp2.0/mccarthy.runtimeconfig.dev.json
+/Users/wernergriesel/Projects/mccarthy/bin/Debug/netcoreapp2.0/mccarthy.dll
+/Users/wernergriesel/Projects/mccarthy/bin/Debug/netcoreapp2.0/mccarthy.pdb
+/Users/wernergriesel/Projects/mccarthy/obj/Debug/netcoreapp2.0/mccarthy.csproj.CoreCompileInputs.cache
+/Users/wernergriesel/Projects/mccarthy/obj/Debug/netcoreapp2.0/UserSecretsAssemblyInfo.cs
+/Users/wernergriesel/Projects/mccarthy/obj/Debug/netcoreapp2.0/mccarthy.AssemblyInfoInputs.cache
+/Users/wernergriesel/Projects/mccarthy/obj/Debug/netcoreapp2.0/mccarthy.AssemblyInfo.cs
+/Users/wernergriesel/Projects/mccarthy/obj/Debug/netcoreapp2.0/mccarthy.dll
+/Users/wernergriesel/Projects/mccarthy/obj/Debug/netcoreapp2.0/mccarthy.pdb

@@ -1,0 +1,45 @@
+$section-padding: 80px;
+$header-height: 90px;
+
+
+// Body
+body {
+	padding-top: $header-height;
+}
+
+// Content
+.main-content {
+	min-height: 70vh;
+}
+
+// Containers
+.container {
+	position: relative;
+}
+
+// Navigation
+.fixed-top {
+	border-bottom: 1px solid $border-color;
+}
+.navbar-nav {
+	.nav-link {
+		font-family: $headings-font-family;
+	}
+}
+
+//Section
+.section {
+	padding: $section-padding 0;
+	position: relative;
+}
+
+// Avatar
+.avatar {
+    -webkit-flex-shrink: 0;
+    -moz-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 1.5em;
+}

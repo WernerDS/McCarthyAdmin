@@ -1,0 +1,9 @@
+.dropzone {
+  background-color: $white;
+  border-color: $border-color;
+  border-radius: $border-radius;
+  @include transition(border-color 300ms, background-color 300ms);
+  min-height: 50px;
+  position: relative;
+}
+

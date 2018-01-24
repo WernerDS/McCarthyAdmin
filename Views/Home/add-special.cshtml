@@ -1,0 +1,183 @@
+﻿@{
+    ViewData["Title"] = "Add/Edit Special";
+}
+
+
+
+<div class="card mb-4">
+	<div class="card-body">
+		
+		<h2 class="mb-3">@ViewData["Title"]</h2>
+		
+		<div class="row mb-4">
+			<div class="col-md-8">
+				
+				<div class="row">
+					<div class="col-md-8 text-left">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Advert Heading...">
+						</div>
+					</div>
+					<div class="col-md-4 text-right">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Price...">
+						</div>
+					</div>
+				</div>
+				
+				<div class="row mb-3">
+					<div class="col">
+						<form class="dropzone" id="dropzone-upload"></form>
+					</div>
+				</div>
+				<div class="row mb-3">
+					<div class="col">
+						<label>Ad Description</label>
+						<textarea class="form-control" rows="3"></textarea>
+					</div>
+				</div>
+				<div class="row mb-3">
+					<div class="col-md-6">
+						<input type="text" class="form-control date-picker-start" placeholder="Pick a start date...">
+					</div>
+					<div class="col-md-6">
+						<input type="text" class="form-control date-picker-end" placeholder="Pick an end date...">
+					</div>
+				</div>
+				<div class="row mb-3">
+					<div class="col-md-6">
+						<input type="email" class="form-control" placeholder="Email Address...">
+					</div>
+					<div class="col-md-6">
+						<input type="text" class="form-control" placeholder="Stock number...">
+					</div>
+				</div>
+				<div class="row mb-3">
+					<div class="col-md-6">
+						<select class="form-control">
+							<option>Select Category</option>
+							<option>Demo Vehicles</option>
+							<option>New Vehicles</option>
+							<option>Used Vehicles</option>
+							<option>Services</option>
+							<option>Parts</option>
+						</select>
+					</div>
+					<div class="col-md-6">
+						<input type="text" class="form-control" placeholder="Url...">
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-3 ml-auto">
+				<div class="category-list">
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="branchCheck1">
+						<label class="custom-control-label" for="branchCheck1">ALL Branches</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="branchCheck2">
+						<label class="custom-control-label" for="branchCheck2">Arcadia</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="branchCheck3">
+						<label class="custom-control-label" for="branchCheck3">Ballito</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="branchCheck4">
+						<label class="custom-control-label" for="branchCheck4">Bruma</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="branchCheck5">
+						<label class="custom-control-label" for="branchCheck5">Centurion</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="branchCheck6">
+						<label class="custom-control-label" for="branchCheck6">Durban Kingsmead</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="branchCheck7">
+						<label class="custom-control-label" for="branchCheck7">Durban North</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="branchCheck8">
+						<label class="custom-control-label" for="branchCheck8">Edenvale</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="branchCheck9">
+						<label class="custom-control-label" for="branchCheck9">Edwin Swales</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="branchCheck10">
+						<label class="custom-control-label" for="branchCheck10">Empangeni</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="branchCheck11">
+						<label class="custom-control-label" for="branchCheck11">Gezina</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="branchCheck12">
+						<label class="custom-control-label" for="branchCheck12">Hatfield</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="branchCheck13">
+						<label class="custom-control-label" for="branchCheck13">Lynnwood</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="branchCheck14">
+						<label class="custom-control-label" for="branchCheck14">Midrand</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="branchCheck15">
+						<label class="custom-control-label" for="branchCheck15">N1 City</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="branchCheck16">
+						<label class="custom-control-label" for="branchCheck16">Paarl</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="branchCheck17">
+						<label class="custom-control-label" for="branchCheck17">Pietermaritzburg</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="branchCheck18">
+						<label class="custom-control-label" for="branchCheck18">Pinetown</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="branchCheck19">
+						<label class="custom-control-label" for="branchCheck19">Pre-owned Mobeni</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="branchCheck20">
+						<label class="custom-control-label" for="branchCheck20">Richards Bay</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="branchCheck21">
+						<label class="custom-control-label" for="branchCheck21">Sinoville</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="branchCheck22">
+						<label class="custom-control-label" for="branchCheck22">Woodmead</label>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md">
+				<a href="" class="btn btn-primary">Save</a>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+@section Scripts {
+	<script src="~/lib/dropzone/dist/min/dropzone.min.js"></script>
+	<script src="~/lib/moment/min/moment.min.js"></script>
+	<script src="~/lib/flatpickr/dist/flatpickr.min.js"></script>
+	
+	<script src="~/js/add-special.js"></script>
+}
