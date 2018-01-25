@@ -5,60 +5,110 @@
 
 <div class="card mb-4">
 	<div class="card-body">
-		<h2>@ViewData["Title"]</h2>
+		<h2 class="mb-4">@ViewData["Title"]</h2>
 		<div class="row">
-			<div class="col-md-4">
-				<div class="form-group">
-					<label>Dealer Name</label>
-				    <input type="email" class="form-control" placeholder="">
-				</div>
-				<div class="form-group">
-					<label>Phone Number</label>
-				    <input type="email" class="form-control" placeholder="">
-				</div>
-				<div class="form-group">
-					<label>Cell Number</label>
-				    <input type="email" class="form-control" placeholder="">
-				</div>
-				<div class="form-group">
-					<label>Fax Number</label>
-				    <input type="email" class="form-control" placeholder="">
-				</div>
-				<div class="form-group">
-					<div class="custom-control custom-checkbox">
-						<input type="checkbox" class="custom-control-input" id="customCheck1">
-						<label class="custom-control-label" for="customCheck1">Check to catch all</label>
+			<div class="col-md-8">
+				<div class="row mb-3">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Dealer Name</label>
+						    <input type="email" class="form-control" placeholder="Dealer Name...">
+						</div>
 					</div>
-                </div>
-				<div class="form-group">
-					<label>Catch all email</label>
-				    <input type="email" class="form-control" placeholder="">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Phone Number</label>
+						    <input type="email" class="form-control" placeholder="Phone Number...">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Cell Number</label>
+						    <input type="email" class="form-control" placeholder="Cell Number...">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Fax Number</label>
+						    <input type="email" class="form-control" placeholder="Fax Number...">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Catch all email</label>
+						    <input type="email" class="form-control" placeholder="Catch all email...">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Postal Code</label>
+						    <input type="email" class="form-control" placeholder="Postal Code...">
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="form-group">
+							<label>Display Address</label>
+						    <textarea class="form-control" rows="3"></textarea>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Dealership ID</label>
+						    <input type="text" class="form-control" placeholder="Dealership ID...">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Region</label>
+						    <select class="form-control">
+								<option>Select Region</option>
+								<option>Gauteng</option>
+								<option>Western Cape</option>
+								<option>Cape Town</option>
+								<option>KwaZulu-Natal</option>
+								<option>Eastern Cape</option>
+								<option>Free State</option>
+								<option>Limpopo</option>
+								<option>Mpumalanga</option>
+								<option>Northern Cape</option>
+								<option>North West</option>
+							</select>
+						</div>
+					</div>
 				</div>
+				
 			</div>
 			<div class="col-md-4">
-				<div class="form-group">
-					<label>GPS Coordinates</label>
-				    <input type="email" class="form-control" placeholder="">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3586.7099877038013!2d28.113088515493363!3d-25.977550061106836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e956e3b8b1933b5%3A0x5f4035d59344c6b5!2sBidvest+McCarthy+Lexus+Midrand!5e0!3m2!1sen!2sza!4v1516866279679" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+				
+				<div class="row mt-3">
+					<div class="col-md-6">
+						<div class="form-group">
+						    <input type="email" class="form-control" placeholder="Longitude...">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+						    <input type="email" class="form-control" placeholder="Latitude...">
+						</div>
+					</div>
 				</div>
-				<div class="form-group">
-					<label>Postal Code</label>
-				    <input type="email" class="form-control" placeholder="">
-				</div>
-				<div class="form-group">
-					<label>Display Address</label>
-				    <textarea class="form-control" rows="3"></textarea>
-				</div>
-			</div>
-			<div class="col-md-4">
-				Map
 			</div>
 		</div>
 	</div>
 </div>
+		
+
 
 <div class="card mb-4">
 	<div class="card-body">
 		<div class="row">
+			<div class="col-md-2">
+				<div class="custom-control custom-checkbox mt-2">
+					<input type="checkbox" class="custom-control-input" id="customCheck2">
+					<label class="custom-control-label" for="customCheck2">Special</label>
+				</div>
+			</div>
 			<div class="col-md-4">
 			    <select class="form-control">
 				    <option>Special Category</option>
@@ -70,13 +120,10 @@
 				</select>
 			</div>
 			<div class="col-md-4">
-				<div class="custom-control custom-checkbox mt-2">
-					<input type="checkbox" class="custom-control-input" id="customCheck2">
-					<label class="custom-control-label" for="customCheck2">Special</label>
-				</div>
-			</div>
-			<div class="col-md-4">
 				<input type="email" class="form-control" placeholder="Email address...">
+			</div>
+			<div class="col-md-2 text-right">
+				<a href="" class="btn btn-light">Add</a>
 			</div>
 		</div>
 	</div>
